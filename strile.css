@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    font-family: 'Patua One', cursive;
+}
+
+tr:nth-of-type(1) > th{
+    text-align:center;
+    background: #59acdd;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 10px solid #ffffff;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #141414;
+}
+
+tr:nth-of-type(2) > td,
+tr:nth-of-type(3) > td,
+tr:nth-of-type(4) > td,
+tr:nth-of-type(5) > td,
+tr:nth-of-type(6) > td,
+tr:nth-of-type(7) > td,
+tr:nth-of-type(8) > td,
+tr:nth-of-type(9) > td {    
+    text-align: center;
+    background: rgb(148, 252, 217);
+    padding: 4px;
+    box-sizing: border-box;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    color: rgb(135, 128, 128);
+    font-size: 12px;
+}
+
+.algedra{
+    text-align: center;
+    background: aquamarine;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.link-algedra{
+    color: black;
+    text-decoration-line: none;
+    text-overflow: none;
+    animation-direction: normal;
+}
+
+
+
+.materias-listas{
+    text-align: center;
+    background: aquamarine;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.link-materias-listas{
+    color: black;
+    text-decoration-line: none;
+    text-overflow: none;
+    animation-direction: normal;
+}
+
+
+
+
+
+
+
